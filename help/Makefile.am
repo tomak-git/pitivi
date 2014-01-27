@@ -42,6 +42,7 @@ HELP_FILES = \
     sysreq.page \
     transitions.page \
     trimming.page \
+    troubleshooting.page \
     usingclips.page \
     usingeffects.page \
     welcomedialog.page \

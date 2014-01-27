@@ -1,0 +1,65 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="topic"
+      id="troubleshooting">
+
+  <info>
+    <link type="topic" xref="index"/>
+    <link type="seealso" xref="movearoundtimeline"/>
+    <link type="seealso" xref="cheatsheet"/>
+    <revision pkgversion="0.92" version="0.1" date="2013-12-20" status="draft"/>
+    <credit type="author">
+      <name>Tomáš Karger</name>
+      <email>tomkarger@gmail.com</email>
+    </credit>
+    <credit type="contributor">
+      <name>Jean-François Fortin Tam</name>
+      <email>nekohayo@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+    <title>Troubleshooting</title>
+
+    <p>This page lists a number of frequent problems and their solutions. For many of them, there are answers in other parts of the manual so in these cases this page serves merely as a signpost which provides links to the relevant pages.</p>
+
+     <section>
+      <title>How to remove the audio part of a clip?</title>
+       <p>See the <link xref="grouping">Grouping and ungrouping clips</link> page for a step by step procedure.</p>
+     </section>
+
+     <section>
+      <title>How do I cut out a middle part of a clip?</title>
+       <p>See the <link xref="splitting">Splitting</link> page for a step by step procedure.</p>
+     </section>
+
+    <section>
+     <title>What are the recommended rendering settings to export to YouTube?</title>
+      <list>
+      <item><p>Container: Matroska (.mkv): matroskamux</p></item>
+      <item><p>Video codec: H.264: x264enc</p></item>
+      <item><p>Audio codec: AAC</p></item>
+      </list>
+    </section>
+
+    <section>
+      <title>Can <app>Pitivi</app> capture video from DV or DVD camcorders?</title>
+       <p>See the <link xref="importing">Getting media</link> page for more information on this issue.</p>
+    </section>
+
+    <section>
+      <title>Can <app>Pitivi</app> capture video from a webcam?</title>
+       <p>This feature is not present in <app>Pitivi</app> because using webcam footage for video editing is not very common. To capture video from a webcam you can use the <app>Cheese</app> application.</p>
+       <note style="bug">
+           <p>See <link href="https://bugzilla.gnome.org/show_bug.cgi?id=624618">bug #624618</link> for more detailed explanation on why this feature is not included in <app>Pitivi</app>.</p>
+       </note>
+    </section>
+
+    <section>
+      <title>How to transcode AVCHD / MPEG-TS (.mts, .m2ts) files into a GStreamer-friendly format?</title>
+     <p>See the <link xref="importingmpegts">How to convert .mts and .m2ts files...</link> page for the solution.</p>
+    </section>
+
+</page>
