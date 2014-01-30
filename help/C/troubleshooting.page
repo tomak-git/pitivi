@@ -36,6 +36,11 @@
      </section>
 
     <section>
+      <title>How to transcode AVCHD / MPEG-TS (.mts, .m2ts) files into a GStreamer-friendly format?</title>
+     <p>See the <link xref="importingmpegts">How to convert .mts and .m2ts files...</link> page for the solution.</p>
+    </section>
+
+    <section>
      <title>What are the recommended rendering settings to export to YouTube?</title>
       <list>
       <item><p>Container: Matroska (.mkv): matroskamux</p></item>
@@ -58,8 +63,8 @@
     </section>
 
     <section>
-      <title>How to transcode AVCHD / MPEG-TS (.mts, .m2ts) files into a GStreamer-friendly format?</title>
-     <p>See the <link xref="importingmpegts">How to convert .mts and .m2ts files...</link> page for the solution.</p>
+      <title>Can <app>Pitivi</app> render from command line?</title>
+       <p>This feature is not present in <app>Pitivi</app> itself. Instead, you can use <app>ges-launch</app> for this purpose. It can load a pitivi project, preview it and render it. See the ges-launch help (run <cmd>ges-launch -h</cmd>) for information on correct syntax.</p>
     </section>
 
 </page>
