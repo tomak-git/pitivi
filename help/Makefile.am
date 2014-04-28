@@ -36,7 +36,6 @@ HELP_FILES = \
     movearoundtimeline.page \
     presets.page \
     rendering.page \
-    savescreenshot.page \
     selectiongrouping.page \
     splitting.page \
     sysreq.page \

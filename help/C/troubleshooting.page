@@ -7,7 +7,7 @@
     <link type="topic" xref="index"/>
     <link type="seealso" xref="movearoundtimeline"/>
     <link type="seealso" xref="cheatsheet"/>
-    <revision pkgversion="0.92" version="0.1" date="2013-12-20" status="draft"/>
+    <revision pkgversion="0.93" version="0.1" date="2014-04-28" status="draft"/>
     <credit type="author">
       <name>Tomáš Karger</name>
       <email>tomkarger@gmail.com</email>
@@ -34,6 +34,16 @@
       <title>How do I cut out a middle part of a clip?</title>
        <p>See the <link xref="splitting">Splitting</link> page for a step by step procedure.</p>
      </section>
+
+    <section>
+     <title>How can I save a snapshot of the current frame?</title>
+      <steps>
+      <item><p>Set the playhead on the frame you want to capture</p></item>
+      <item><p>In the Menu bar, go to <guiseq><gui>Timeline</gui><gui>Export current frame...</gui></guiseq></p></item>
+      <item><p>Save the file</p></item>
+      </steps>
+      <p>Currently, PNG and JPEG are supported as file formats. The image resolution will match the project settings and any effect or transformation will also be applied to the resulting image.</p>
+    </section>
 
     <section>
       <title>How to transcode AVCHD / MPEG-TS (.mts, .m2ts) files into a GStreamer-friendly format?</title>
