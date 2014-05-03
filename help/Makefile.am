@@ -25,7 +25,6 @@ HELP_FILES = \
     codecscontainers.page \
     effects.page \
     gstreamer.page \
-    importingmpegts.page \
     importing.page \
     index.page \
     keyframecurves.page \

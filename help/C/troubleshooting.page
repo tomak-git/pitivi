@@ -47,7 +47,8 @@
 
     <section>
       <title>How to transcode AVCHD / MPEG-TS (.mts, .m2ts) files into a GStreamer-friendly format?</title>
-     <p>See the <link xref="importingmpegts">How to convert .mts and .m2ts files...</link> page for the solution.</p>
+     <p>At the time being, MPEG Transport Stream files (usually with file extensions such as .mts, .m2ts and sometimes .mpg or .mpeg), such as those used by some HD camcorders, cannot be played reliably with <app>GStreamer</app>. Because of that, you may want to remux them in a different container format by using <app>ffmpeg</app>. To convert losslessly to an MPEG4 container, you can use the following command:</p>
+    <code>ffmpeg -i your_clip.MTS -vcodec copy -acodec copy -sn test.mp4</code>
     </section>
 
     <section>
