@@ -61,6 +61,11 @@
     </section>
 
     <section>
+      <title>Can I use <app>Pitivi</app> for video editing on older hardware?</title>
+       <p>See the <link xref="sysreq">System requirements</link> page for more information on hardware requirements.</p>
+    </section>
+
+    <section>
       <title>Can <app>Pitivi</app> capture video from DV or DVD camcorders?</title>
        <p>See the <link xref="importing">Getting media</link> page for more information on this issue.</p>
     </section>
