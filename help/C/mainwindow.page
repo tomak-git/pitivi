@@ -44,6 +44,10 @@
     <p>In the spaces between components, there are handles indicated by five light dots. You can proportionally resize pairs of components by clicking and dragging the handles to the desired position.</p>
     </note>
     <note style="tip">
+    <title>Detaching components of the main window</title>
+    <p>The primary and secondary tabs can be detached into separate windows. To do so, click on the tab label and drag it away from its position. The new window will appear upon release. When you close the new window, the tab will return to its original position. Similarly, the previewer can be detached by clicking the <gui>Detach the viewer</gui> button in the <gui>Playback toolbar</gui>. From the separate window, you can play the preview in fullscreen. This will also allow other parts of the main window to take up the space the previewer occupied. The only components that cannot be detached are the <gui>Timeline</gui> and the <gui>Header bar</gui>.</p>
+    </note>
+    <note style="tip">
     <title>Hovering for more information</title>
     <p>Hovering the mouse cursor over an element in the main window usually reveals an information tooltip regarding its function.</p>
     </note>
@@ -112,10 +116,6 @@
        <item><p>A <em>live preview</em> when trimming a clip's beginning/end point.</p>
        </item>
       </list>
-      <note style="tip">
-      <title>Detaching the previewer into a separate window</title>
-          <p>You can detach the previewer into a separate window by clicking the <gui>Detach the viewer</gui> button in the <gui>Playback toolbar</gui>. From the separate window, you can play the preview in fullscreen. This will also allow other parts of the main window to take up the space the previewer occupied. You can attach the previewer back by closing the separate window.</p>
-      </note>
       <note>
           <p><app>Pitivi</app> inhibits screensaver while playing video preview.</p>
       </note>
